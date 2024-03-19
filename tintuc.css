@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#head1 {
+    background-color: #fff; 
+    color: #fff;
+    padding: 10px; 
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+#head1 #logo img {
+    height: 40px; 
+}
+
+#head1 input[type="search"] {
+    flex: 1; 
+    margin: 0 10px; 
+    padding: 5px; 
+}
+
+#head1 .dang-nhap {
+    text-decoration: none;
+    color: #000;
+    background-color: #fff; 
+    padding: 5px 10px; 
+ 
+}
+
+#head2 {
+    background-color: #fff; 
+    padding: 10px; 
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.3);
+}
+
+#head2 ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+}
+
+#head2 ul li {
+    display: inline-block;
+    margin-right: 9px;
+}
+
+#head2 ul li a {
+    text-decoration: none;
+    padding: 0 12px 0;
+}
+
+#avat{
+    width: 30px;
+    border-radius: 50%;
+}
+
+#conten {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.tieude {
+    color: #333;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 44px;
+}
+.chuthich {
+    color: #666;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.anh {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.vanban {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#fooder {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 70px 40px;
+}
+
+.column {
+    flex: 1;
+}
+
+#toansoan {
+    padding-right: 20px; 
+}
+
+#diachi {
+    padding-left: 20px; 
+}
+
+#fooder p {
+    margin-bottom: 10px; 
+    font-size: 18px;
+}
+
+#fooder b {
+    font-weight: bold; 
+}

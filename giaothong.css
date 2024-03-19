@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#head1 {
+    background-color: #fff; 
+    color: #000; /* Sửa màu chữ thành đen */
+    padding: 10px; 
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+#head1 #logo img {
+    height: 40px; 
+}
+
+#head1 input[type="search"] {
+    flex: 1; 
+    margin: 0 10px; 
+    padding: 5px; 
+}
+
+#head1 .dang-nhap {
+    text-decoration: none;
+    color: #000;
+    background-color: #fff; 
+    padding: 5px 10px; 
+}
+
+#head2 {
+    background-color: #fff; 
+    padding: 10px; 
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.3);
+}
+
+#head2 ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+}
+
+#head2 ul li {
+    display: inline-block;
+    margin-right: 9px;
+}
+
+#head2 ul li a {
+    text-decoration: none;
+    padding: 0 12px 0;
+    color: #000; 
+}
+
+#avat {
+    width: 30px;
+    border-radius: 50%;
+}
+
+#content {
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    padding: 10px 0;
+    margin: 10px 30px;
+}
+
+#head {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#head ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#head ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#head ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+#head ul li a:hover {
+    color: red;
+}
+
+#head h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+#list {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.item {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.anh {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.tieude {
+    color: #333;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text {
+    color: #666;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.text a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.text a:hover {
+    text-decoration: underline;
+}
+
+#list a{
+    text-decoration: none;
+}
+
+#fooder {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 70px 40px;
+}
+
+.column {
+    flex: 1;
+}
+
+#toansoan {
+    padding-right: 20px; 
+}
+
+#diachi {
+    padding-left: 20px; 
+}
+
+#fooder p {
+    margin-bottom: 10px; 
+    font-size: 18px;
+}
+
+#fooder b {
+    font-weight: bold; 
+}
